@@ -1,0 +1,3 @@
+rootProject.name = 'utils'
+include 'core', 'conver', 'swing', 'http', 'often_qq', 'often_csdn', 'often_baidu', 'always'
+include 'web','tool','often_pw','spirit'

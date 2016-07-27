@@ -1,0 +1,15 @@
+group 'org.zyq.utils'
+version '0.59'
+
+apply plugin: 'java'
+archivesBaseName = 'core'
+
+dependencies {
+    compile 'commons-io:commons-io:2.3'
+}
+
+task fatJar(type: Jar) {
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}

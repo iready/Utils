@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../model/gradle/gradle-2.8" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/always" />
+            <option value="$PROJECT_DIR$/conver" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/http" />
+            <option value="$PROJECT_DIR$/often_baidu" />
+            <option value="$PROJECT_DIR$/often_csdn" />
+            <option value="$PROJECT_DIR$/often_pw" />
+            <option value="$PROJECT_DIR$/often_qq" />
+            <option value="$PROJECT_DIR$/spirit" />
+            <option value="$PROJECT_DIR$/swing" />
+            <option value="$PROJECT_DIR$/tool" />
+            <option value="$PROJECT_DIR$/web" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

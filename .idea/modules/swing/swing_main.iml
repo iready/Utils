@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":swing:main" external.linked.project.path="$MODULE_DIR$/../../../swing" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="org.zyq.utils" external.system.module.type="sourceSet" external.system.module.version="0.4" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../../swing/build/classes/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../swing/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../swing/src/main/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../swing/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../swing/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy:2.4.5" level="project" />
+    <orderEntry type="library" name="Gradle: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Gradle: beautyeye:beautyeye:3.0" level="project" />
+    <orderEntry type="library" name="Gradle: cglib:cglib-nodep:3.1" level="project" />
+  </component>
+</module>

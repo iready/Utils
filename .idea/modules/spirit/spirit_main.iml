@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":spirit:main" external.linked.project.path="$MODULE_DIR$/../../../spirit" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="org.zyq.utils" external.system.module.type="sourceSet" external.system.module.version="0.11" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../../spirit/build/classes/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../spirit/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../spirit/src/main/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spirit/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../spirit/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy:2.4.5" level="project" />
+    <orderEntry type="library" name="Gradle: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="module" module-name="core_main" />
+    <orderEntry type="library" name="Gradle: commons-io:commons-io:2.3" level="project" />
+  </component>
+</module>

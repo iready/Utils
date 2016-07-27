@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/always/always.iml" filepath="$PROJECT_DIR$/.idea/modules/always/always.iml" group="always" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/always/always_main.iml" filepath="$PROJECT_DIR$/.idea/modules/always/always_main.iml" group="always" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/always/always_test.iml" filepath="$PROJECT_DIR$/.idea/modules/always/always_test.iml" group="always" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/conver/conver.iml" filepath="$PROJECT_DIR$/.idea/modules/conver/conver.iml" group="conver" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/conver/conver_main.iml" filepath="$PROJECT_DIR$/.idea/modules/conver/conver_main.iml" group="conver" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/conver/conver_test.iml" filepath="$PROJECT_DIR$/.idea/modules/conver/conver_test.iml" group="conver" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core_main.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core_test.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/http/http.iml" filepath="$PROJECT_DIR$/.idea/modules/http/http.iml" group="http" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/http/http_main.iml" filepath="$PROJECT_DIR$/.idea/modules/http/http_main.iml" group="http" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/http/http_test.iml" filepath="$PROJECT_DIR$/.idea/modules/http/http_test.iml" group="http" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_baidu/often_baidu.iml" filepath="$PROJECT_DIR$/.idea/modules/often_baidu/often_baidu.iml" group="often_baidu" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_baidu/often_baidu_main.iml" filepath="$PROJECT_DIR$/.idea/modules/often_baidu/often_baidu_main.iml" group="often_baidu" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_baidu/often_baidu_test.iml" filepath="$PROJECT_DIR$/.idea/modules/often_baidu/often_baidu_test.iml" group="often_baidu" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_csdn/often_csdn.iml" filepath="$PROJECT_DIR$/.idea/modules/often_csdn/often_csdn.iml" group="often_csdn" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_csdn/often_csdn_main.iml" filepath="$PROJECT_DIR$/.idea/modules/often_csdn/often_csdn_main.iml" group="often_csdn" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_csdn/often_csdn_test.iml" filepath="$PROJECT_DIR$/.idea/modules/often_csdn/often_csdn_test.iml" group="often_csdn" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_pw/often_pw.iml" filepath="$PROJECT_DIR$/.idea/modules/often_pw/often_pw.iml" group="often_pw" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_pw/often_pw_main.iml" filepath="$PROJECT_DIR$/.idea/modules/often_pw/often_pw_main.iml" group="often_pw" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_pw/often_pw_test.iml" filepath="$PROJECT_DIR$/.idea/modules/often_pw/often_pw_test.iml" group="often_pw" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_qq/often_qq.iml" filepath="$PROJECT_DIR$/.idea/modules/often_qq/often_qq.iml" group="often_qq" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_qq/often_qq_main.iml" filepath="$PROJECT_DIR$/.idea/modules/often_qq/often_qq_main.iml" group="often_qq" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_qq/often_qq_test.iml" filepath="$PROJECT_DIR$/.idea/modules/often_qq/often_qq_test.iml" group="often_qq" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spirit/spirit.iml" filepath="$PROJECT_DIR$/.idea/modules/spirit/spirit.iml" group="spirit" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spirit/spirit_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spirit/spirit_main.iml" group="spirit" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spirit/spirit_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spirit/spirit_test.iml" group="spirit" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/swing/swing.iml" filepath="$PROJECT_DIR$/.idea/modules/swing/swing.iml" group="swing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/swing/swing_main.iml" filepath="$PROJECT_DIR$/.idea/modules/swing/swing_main.iml" group="swing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/swing/swing_test.iml" filepath="$PROJECT_DIR$/.idea/modules/swing/swing_test.iml" group="swing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tool/tool.iml" filepath="$PROJECT_DIR$/.idea/modules/tool/tool.iml" group="tool" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tool/tool_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tool/tool_main.iml" group="tool" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tool/tool_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tool/tool_test.iml" group="tool" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils.iml" filepath="$PROJECT_DIR$/.idea/modules/utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils_main.iml" filepath="$PROJECT_DIR$/.idea/modules/utils_main.iml" group="utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils_test.iml" filepath="$PROJECT_DIR$/.idea/modules/utils_test.iml" group="utils" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web.iml" group="web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web_main.iml" group="web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web_test.iml" group="web" />
+    </modules>
+  </component>
+</project>

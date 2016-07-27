@@ -1,0 +1,7 @@
+group 'org.zyq.utils'
+version '0.4'
+
+dependencies {
+    compile 'beautyeye:beautyeye:3.0'
+    compile 'cglib:cglib-nodep:3.1'
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="always_main" target="1.7" />
+      <module name="always_test" target="1.7" />
+      <module name="conver_main" target="1.7" />
+      <module name="conver_test" target="1.7" />
+      <module name="core_main" target="1.7" />
+      <module name="core_test" target="1.7" />
+      <module name="http_main" target="1.7" />
+      <module name="http_test" target="1.7" />
+      <module name="often_baidu_main" target="1.7" />
+      <module name="often_baidu_test" target="1.7" />
+      <module name="often_csdn_main" target="1.7" />
+      <module name="often_csdn_test" target="1.7" />
+      <module name="often_pw_main" target="1.7" />
+      <module name="often_pw_test" target="1.7" />
+      <module name="often_qq_main" target="1.7" />
+      <module name="often_qq_test" target="1.7" />
+      <module name="spirit_main" target="1.7" />
+      <module name="spirit_test" target="1.7" />
+      <module name="swing_main" target="1.7" />
+      <module name="swing_test" target="1.7" />
+      <module name="tool_main" target="1.7" />
+      <module name="tool_test" target="1.7" />
+      <module name="utils_main" target="1.7" />
+      <module name="utils_test" target="1.7" />
+      <module name="web_main" target="1.7" />
+      <module name="web_test" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

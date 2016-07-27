@@ -1,0 +1,18 @@
+group 'org.zyq.utils'
+version '0.3'
+
+dependencies {
+    compile project(":core")
+    compile 'jacob:jacob:1.6'
+}
+
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Jar File Example',
+                'Implementation-Version': version,
+                'Main-Class': 'org.zyq.utils.conver.ConverUtils'
+    }
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}

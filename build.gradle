@@ -1,0 +1,43 @@
+group 'org.zyq.utils'
+version '0.6'
+
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'groovy'
+    apply plugin: 'maven'
+    sourceCompatibility = 1.7
+    targetCompatibility = 1.7
+    configurations {
+        deployerJars
+    }
+    repositories {
+        maven {
+            url 'http://localhost:8081/artifactory/libs-release'
+        }
+    }
+    dependencies {
+        deployerJars "org.apache.maven.wagon:wagon-http:2.2"
+        compile('org.codehaus.groovy:groovy:2.4.5', 'log4j:log4j:1.2.17')
+    }
+    uploadArchives {
+        repositories.mavenDeployer {
+            configuration = configurations.deployerJars
+            repository(url: "http://localhost:8081/artifactory/ext-release-local") {
+                authentication(userName: "admin", password: "password")
+            }
+        }
+    }
+}
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Jar File Example',
+                'Implementation-Version': version,
+                'Main-Class': 'org.zyq.utils.conver.ConverUtils'
+    }
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+dependencies {
+    compile 'commons-io:commons-io:2.3', 'com.jfinal:jfinal:2.1'
+}

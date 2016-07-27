@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":often_qq" external.linked.project.path="$MODULE_DIR$/../../../often_qq" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="org.zyq.utils" external.system.module.version="" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../often_qq">
+      <excludeFolder url="file://$MODULE_DIR$/../../../often_qq/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../often_qq/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

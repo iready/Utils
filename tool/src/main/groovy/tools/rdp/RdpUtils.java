@@ -44,6 +44,11 @@ public class RdpUtils {
         toRDP("D:/ff.rdp", "147.1.7.19:8234", "administrator", "1234");
     }
 
+    @Test
+    public void a() {
+        System.out.println("123".compareTo("222"));
+    }
+
     public String createContent(String addr, String username, String password) throws UnsupportedEncodingException {
         return String.format(sv, addr, username, new String(Hex.encodeHex(Crypt32Util.cryptProtectData(password.getBytes("UTF-16LE")))));
     }

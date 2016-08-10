@@ -17,7 +17,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_baidu/often_baidu.iml" filepath="$PROJECT_DIR$/.idea/modules/often_baidu/often_baidu.iml" group="often_baidu" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_baidu/often_baidu_main.iml" filepath="$PROJECT_DIR$/.idea/modules/often_baidu/often_baidu_main.iml" group="often_baidu" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_baidu/often_baidu_test.iml" filepath="$PROJECT_DIR$/.idea/modules/often_baidu/often_baidu_test.iml" group="often_baidu" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_csdn/often_csdn.iml" filepath="$PROJECT_DIR$/.idea/modules/often_csdn/often_csdn.iml" group="often_csdn" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_csdn/often_csdn_main.iml" filepath="$PROJECT_DIR$/.idea/modules/often_csdn/often_csdn_main.iml" group="often_csdn" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_csdn/often_csdn_test.iml" filepath="$PROJECT_DIR$/.idea/modules/often_csdn/often_csdn_test.iml" group="often_csdn" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/often_pw/often_pw.iml" filepath="$PROJECT_DIR$/.idea/modules/often_pw/often_pw.iml" group="often_pw" />
@@ -38,7 +37,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils.iml" filepath="$PROJECT_DIR$/.idea/modules/utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils_main.iml" filepath="$PROJECT_DIR$/.idea/modules/utils_main.iml" group="utils" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/utils_test.iml" filepath="$PROJECT_DIR$/.idea/modules/utils_test.iml" group="utils" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web.iml" group="web" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web_main.iml" group="web" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/web/web_test.iml" group="web" />
     </modules>

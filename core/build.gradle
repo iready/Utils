@@ -1,5 +1,5 @@
 group 'org.zyq.utils'
-version '0.59'
+version '0.6'
 
 apply plugin: 'java'
 archivesBaseName = 'core'

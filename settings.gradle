@@ -1,2 +1,2 @@
 rootProject.name = 'utils'
-include 'core', 'conver', 'swing', 'http', 'often_qq',  'often_baidu', 'always','web','tool','often_pw','spirit'
+include 'core', 'conver', 'swing', 'http', 'often_qq',  'often_baidu', 'always','tool','often_pw','spirit'

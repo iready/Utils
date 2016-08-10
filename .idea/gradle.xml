@@ -20,7 +20,6 @@
             <option value="$PROJECT_DIR$/spirit" />
             <option value="$PROJECT_DIR$/swing" />
             <option value="$PROJECT_DIR$/tool" />
-            <option value="$PROJECT_DIR$/web" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -18,7 +18,7 @@
             <element id="module-output" name="http_main" />
             <element id="dir-copy" path="$PROJECT_DIR$/http/build/resources/main" />
           </element>
-          <element id="archive" name="org.zyq.utils-core-0.59.jar">
+          <element id="archive" name="org.zyq.utils-core-0.6.jar">
             <element id="module-output" name="core_main" />
             <element id="dir-copy" path="$PROJECT_DIR$/core/build/resources/main" />
           </element>

@@ -18,7 +18,7 @@ import java.util.Enumeration;
 public class SwingUtils {
     public static SwingUtils s = new SwingUtils();
     private static SwingPrintStream swingPrintStream;
-    private static Logger logger = Logger.getLogger("SWING");
+    private static Logger logger = Logger.getLogger(SwingUtils.class);
     private static JFrame jFrame;
 
     public static JFrame getjFrame() {

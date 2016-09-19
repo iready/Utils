@@ -63,9 +63,15 @@ class POIUtils {
      * @param file
      * @return
      */
+    @Deprecated
     static HSSFWorkbook getMB(File file) {
-        return new HSSFWorkbook(FileUtils.openInputStream(file))
+        return new HSSFWorkbook(FileUtils.openInputStream(file));
     }
+
+    static Workbook getMB(File file, Class<? extends Workbook> claz) {
+        return claz.newInstance(FileUtils.openInputStream(file));
+    }
+
     /**
      * 算法重算
      * @param cell

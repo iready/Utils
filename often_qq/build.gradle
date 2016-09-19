@@ -6,8 +6,9 @@ apply plugin: 'war'
 dependencies {
     compile project(":http")
     compile project(":core")
-    compile 'com.jfinal:jfinal:2.2.3','org.quartz-scheduler:quartz:2.2.2',  'mysql:mysql-connector-java:5.1.37', 'com.alibaba:druid:1.0.16', 'org.web.s:servlet-api:1.0', 'org.apache.commons:commons-lang3:3.1'
+    compile 'com.jfinal:jfinal:2.2.3', 'org.quartz-scheduler:quartz:2.2.2', 'mysql:mysql-connector-java:5.1.37', 'com.alibaba:druid:1.0.16', 'org.web.s:servlet-api:1.0', 'org.apache.commons:commons-lang3:3.1'
 }
+
 task fatJar(type: Jar) {
     manifest {
         attributes 'Implementation-Title': 'Gradle Jar File Example',

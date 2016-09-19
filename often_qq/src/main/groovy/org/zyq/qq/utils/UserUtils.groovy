@@ -63,7 +63,7 @@ class UserUtils extends BaseUtils {
                     user.setSid(it[1]);
                 })
             }
-            if (!r[0].equals('0')) {
+            if (r[0] != '0') {
                 logger.error r.join(',')
                 return false;
             } else {

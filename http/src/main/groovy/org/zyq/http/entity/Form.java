@@ -11,9 +11,6 @@ public class Form extends TreeMap<String, String> {
 
     private String target;
 
-    public static void main(String[] args) {
-    }
-
     public Form set(String key, String value) {
         super.put(key, value);
         return this;

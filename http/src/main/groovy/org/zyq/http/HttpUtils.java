@@ -18,6 +18,8 @@ public interface HttpUtils {
 
     String get(String Url, HttpContext httpContext, Map<String, String> param) throws IOException;
 
+    <M> M get(String url, ResponseHandler<M> handler) throws IOException;
+
     <M> M get(String url, HttpContext httpContext, ResponseHandler<M> handler) throws IOException;
 
     String post(String Url, Map<String, String> param) throws IOException;

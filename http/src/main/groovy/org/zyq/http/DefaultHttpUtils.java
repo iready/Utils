@@ -94,6 +94,16 @@ public class DefaultHttpUtils implements HttpUtils {
         return null;
     }
 
+    @Override
+    public <M> M get(String url, ResponseHandler<M> handler) throws IOException {
+        if (isRighturl(url)) {
+            HttpGet get = new HttpGet(url);
+            get.setHeaders(config.getHeaders());
+            return httpClient.execute(get, handler);
+        } else
+            throw new RuntimeException(new URISyntaxException(url, "无效URI"));
+    }
+
     public String post(String url, Map<String, String> param) throws IOException {
 
         return post(url, config.getHttpContext(), param);

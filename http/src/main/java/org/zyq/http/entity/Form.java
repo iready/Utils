@@ -1,7 +1,10 @@
 package org.zyq.http.entity;
 
+import org.apache.http.message.BasicNameValuePair;
 import org.zyq.core.lang.Str;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
@@ -10,6 +13,21 @@ import java.util.regex.Pattern;
 public class Form extends TreeMap<String, String> {
 
     private String target;
+
+    public List<BasicNameValuePair> getFormData(Map<String, String> map) {
+        List<BasicNameValuePair> params = new ArrayList<BasicNameValuePair>() {
+            public boolean add(BasicNameValuePair e) {
+                if (e.getValue() == null) {
+                    e = new BasicNameValuePair(e.getName(), "");
+                }
+                return super.add(e);
+            }
+        };
+        for (Map.Entry<String, String> e : map.entrySet()) {
+            params.add(new BasicNameValuePair(e.getKey(), e.getValue()));
+        }
+        return params;
+    }
 
     public Form set(String key, String value) {
         super.put(key, value);
@@ -60,5 +78,9 @@ public class Form extends TreeMap<String, String> {
 
     private void fjAndPut(String s) {
         this.put(s.substring(0, s.indexOf("=")), s.substring(s.indexOf("=") + 1, s.indexOf("&")));
+    }
+
+    public List<BasicNameValuePair> toNameValuePair() {
+        return getFormData(this);
     }
 }

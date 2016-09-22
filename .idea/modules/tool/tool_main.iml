@@ -4,7 +4,6 @@
     <output url="file://$MODULE_DIR$/../../../tool/build/classes/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../tool/src/main">
-      <sourceFolder url="file://$MODULE_DIR$/../../../tool/src/main/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../tool/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../tool/src/main/resources" type="java-resource" />
     </content>

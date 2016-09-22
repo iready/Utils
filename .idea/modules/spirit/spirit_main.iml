@@ -4,7 +4,6 @@
     <output url="file://$MODULE_DIR$/../../../spirit/build/classes/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../spirit/src/main">
-      <sourceFolder url="file://$MODULE_DIR$/../../../spirit/src/main/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../spirit/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../spirit/src/main/resources" type="java-resource" />
     </content>

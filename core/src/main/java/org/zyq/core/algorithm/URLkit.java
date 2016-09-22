@@ -17,9 +17,27 @@ public class URLkit {
         return null;
     }
 
+    public static String decode(String url, String charset) {
+        try {
+            return URLDecoder.decode(url, charset);
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
     public static String encode(String url) {
         try {
             return URLEncoder.encode(url, "UTF-8");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public static String encode(String url, String charset) {
+        try {
+            return URLEncoder.encode(url, charset);
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }

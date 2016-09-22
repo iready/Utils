@@ -16,7 +16,6 @@
     <output url="file://$MODULE_DIR$/../../../often_qq/build/classes/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../often_qq/src/main">
-      <sourceFolder url="file://$MODULE_DIR$/../../../often_qq/src/main/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../often_qq/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../often_qq/src/main/resources" type="java-resource" />
     </content>

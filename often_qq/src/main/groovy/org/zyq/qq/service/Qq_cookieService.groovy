@@ -3,7 +3,7 @@ package org.zyq.qq.service
 import org.apache.commons.io.FileUtils
 import org.apache.http.client.CookieStore
 import org.apache.http.protocol.HttpContext
-import org.zyq.core.lang.FUtils
+import org.zyq.core.algorithm.FUtils
 import org.zyq.qq.model.Cookie
 import org.zyq.qq.model.User
 

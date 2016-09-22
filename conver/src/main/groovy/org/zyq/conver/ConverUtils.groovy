@@ -8,7 +8,7 @@ import org.apache.log4j.BasicConfigurator
 import org.apache.log4j.Logger
 import org.zyq.conver.pdf.D2PConst
 import org.zyq.core.lang.InitUtils
-import org.zyq.core.lang.Str
+import org.zyq.core.algorithm.Str
 
 /**
  * Created by zouyq on 2016/2/26.

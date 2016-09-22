@@ -2,13 +2,14 @@ package org.zyq.http.entity;
 
 
 import org.apache.http.Header;
+import org.apache.http.message.BasicHeader;
 import org.apache.http.protocol.BasicHttpContext;
 import org.apache.http.protocol.HttpContext;
 
 public class Config {
     private String defaultEncoding = "UTF-8";
     private HttpContext httpContext = new BasicHttpContext();
-    private Header[] headers = new Header[]{};
+    private Header[] headers = new Header[]{new BasicHeader("Content-Type","charset=utf-8")};
     private int repeatCount = 2;
     private int outTimes = 10000;
 

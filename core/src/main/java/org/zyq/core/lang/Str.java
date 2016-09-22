@@ -1,15 +1,17 @@
-package org.zyq.core.lang
+package org.zyq.core.lang;
 
-import java.awt.*
-import java.awt.datatransfer.Clipboard
-import java.awt.datatransfer.DataFlavor
-import java.awt.datatransfer.StringSelection
-import java.awt.datatransfer.Transferable
-import java.util.List
+import java.awt.*;
+import java.awt.datatransfer.*;
+import java.io.File;
+import java.io.IOException;
+import java.util.List;
 
-class Str {
+/**
+ * Created by 邹宇泉 on 2016/9/21.
+ */
+public class Str {
     public static String getPrefix(File file) {
-        return file.name.substring(0, file.name.lastIndexOf("."));
+        return file.getName().substring(0, file.getName().lastIndexOf("."));
     }
 
     public static String getPrefix(String file) {
@@ -17,15 +19,16 @@ class Str {
     }
 
     public static String getSuffix(File file) {
-        return getSuffix(file.name)
+        return getSuffix(file.getName());
     }
 
     public static String getSuffix(String file) {
-        return file.substring(file.lastIndexOf('.') + 1).toLowerCase()
+        return file.substring(file.lastIndexOf('.') + 1).toLowerCase();
     }
-/**
- * 首字母变小写
- */
+
+    /**
+     * 首字母变小写
+     */
     public static String firstCharToLowerCase(String str) {
         char firstChar = str.charAt(0);
         if (firstChar >= 'A' && firstChar <= 'Z') {
@@ -83,6 +86,7 @@ class Str {
 
     /**
      * 判断是否为非空 依次遍历，直至非空为之
+     *
      * @param paras
      * @return
      */
@@ -98,6 +102,7 @@ class Str {
 
     /**
      * 判断是否为非空 依次遍历，直至空为之
+     *
      * @param paras 所有值
      * @return true 有一个不为空或者空字符串就返回true
      */
@@ -156,11 +161,7 @@ class Str {
         return sb.toString();
     }
 
-    static void setSysClipboardText(String text) {
-        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(new StringSelection(text), null);
-    }
-
-    static String getSysClipboardText() {
+    public static String getSysClipboardText() {
         String ret = "";
         Clipboard sysClip = Toolkit.getDefaultToolkit().getSystemClipboard();
         // 获取剪切板中的内容
@@ -168,22 +169,27 @@ class Str {
         if (clipTf != null) {
             // 检查内容是否是文本类型
             if (clipTf.isDataFlavorSupported(DataFlavor.stringFlavor)) {
-                ret = clipTf.getTransferData(DataFlavor.stringFlavor) as String;
+                try {
+                    ret = clipTf.getTransferData(DataFlavor.stringFlavor) + "";
+                } catch (UnsupportedFlavorException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         }
         return ret;
     }
 
-    static String changeNullToEmptyString(String obj) {
+    public static void setSysClipboardText(String text) {
+        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(new StringSelection(text), null);
+    }
+
+    public static String changeNullToEmptyString(String obj) {
         if (obj == null) {
             return "";
         } else {
             return obj;
         }
-    }
-
-    public static void main(String[] args) {
-        int a = 1;
-        println(++a) + (++a)
     }
 }

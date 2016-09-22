@@ -63,7 +63,6 @@ public class Lapender implements Appender {
     }
 
 
-
     public void setLayout(Layout layout) {
 
     }

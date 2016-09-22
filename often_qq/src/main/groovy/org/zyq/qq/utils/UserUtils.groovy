@@ -1,6 +1,6 @@
 package org.zyq.qq.utils
 
-import org.zyq.core.lang.Str
+import org.zyq.core.algorithm.Str
 import org.zyq.core.lang.T
 import org.zyq.http.HttpUtils
 import org.zyq.http.entity.Form

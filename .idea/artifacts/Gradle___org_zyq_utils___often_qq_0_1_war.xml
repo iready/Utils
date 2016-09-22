@@ -14,7 +14,7 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy:2.4.5" />
           <element id="library" level="project" name="Gradle: log4j:log4j:1.2.17" />
-          <element id="archive" name="org.zyq.utils-http-0.1.jar">
+          <element id="archive" name="org.zyq.utils-http-0.2.jar">
             <element id="module-output" name="http_main" />
             <element id="dir-copy" path="$PROJECT_DIR$/http/build/resources/main" />
           </element>
